@@ -2,8 +2,14 @@
 
 一键部署mysql PXC 集群
 
-# 脚本使用方式：
+脚本内容：
 
+自动部署swarm集群
+
+自动部署mysqlPXC集群
+
+自动部署keepalived节点间冗余策略，并监听检查用户所指定的mysql端口是否开发，如果端口不可用，那么将在两秒内漂移VIP
+# 脚本使用方式：
 
 cd deploy_mysql_cluster
 
